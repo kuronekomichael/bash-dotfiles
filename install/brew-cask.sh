@@ -10,26 +10,33 @@ brew tap caskroom/fonts
 # Install packages
 
 apps=(
+  0xed
+  1password
   alfred
-  dash2
+  android-studio
+  appcleaner
+  bettertouchtool
+  charles
+  cooviewer
+  docker
   dropbox
-  firefox
-  flux
   font-fira-code
-  glimmerblocker
+  gitter
   google-chrome
   google-chrome-canary
+  google-japanese-ime
   hammerspoon
+  intellij-idea-ce
+  iterm2
   kaleidoscope
-  macdown
-  opera
-  screenflow
+  licecap
+  pycharm-ce
+  skitch
   slack
   sourcetree
-  spotify
-  sublime-text
-  transmit
+  the-unarchiver
   virtualbox
+  virtualbox-extension-pack
   visual-studio-code
   vlc
 )
