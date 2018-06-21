@@ -11,7 +11,6 @@ brew tap caskroom/fonts
 
 apps=(
   0xed
-  1password
   alfred
   android-studio
   appcleaner
@@ -40,6 +39,8 @@ apps=(
   visual-studio-code
   vlc
 )
+# Install from appstore
+# - 1password
 
 brew cask install "${apps[@]}"
 
