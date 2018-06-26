@@ -46,7 +46,6 @@ apps=(
   libxml2
   lynx
   mackup
-  maven
   mkvtoolnix
   mplayer
   nano
@@ -73,6 +72,8 @@ apps=(
   xvid
   youtube-dl
 )
+# needs java7+ (recommends java8)
+#maven
 
 brew install "${apps[@]}"
 
