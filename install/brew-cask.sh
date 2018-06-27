@@ -27,6 +27,7 @@ apps=(
   hammerspoon
   intellij-idea-ce
   iterm2
+  java8
   kaleidoscope
   licecap
   pycharm-ce
