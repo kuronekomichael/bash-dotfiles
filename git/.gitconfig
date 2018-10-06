@@ -2,6 +2,12 @@
   name = kuronekomichael
   email = hardwarehacking@gmail.com
 
+[includeIf "gitdir:~/code/work/"]
+  path = ~/.extra/gitconfigs/gitconfig.work
+
+[includeIf "gitdir:~/code/github/"]
+  path = ~/.extra/gitconfigs/gitconfig.private
+
 [github]
   user = kuronekomichael
 
