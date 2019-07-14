@@ -16,18 +16,15 @@ apps=(
   appcleaner
   bettertouchtool
   charles
-  cooviewer
   docker
   dropbox
   font-fira-code
   gitter
-  google-chrome
   google-chrome-canary
   google-japanese-ime
   hammerspoon
   intellij-idea-ce
   iterm2
-  java8
   kaleidoscope
   licecap
   pycharm-ce
@@ -35,11 +32,17 @@ apps=(
   slack
   sourcetree
   the-unarchiver
-  virtualbox
-  virtualbox-extension-pack
   visual-studio-code
   vlc
 )
+# Pending:
+# - google-chrome
+# Error:
+# - virtualbox
+# - virtualbox-extension-pack
+# R.I.P.
+# - cooviewer
+# - java8
 # Install from appstore
 # - 1password
 

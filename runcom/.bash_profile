@@ -59,3 +59,9 @@ unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE EXTRAFILE
 # Export
 
 export DOTFILES_DIR DOTFILES_EXTRA_DIR
+
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Force use GNU implementation grep and sed 
+PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
