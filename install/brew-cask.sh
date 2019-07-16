@@ -23,11 +23,13 @@ apps=(
   google-chrome-canary
   google-japanese-ime
   hammerspoon
+  hyper
   intellij-idea-ce
   iterm2
   kaleidoscope
   licecap
   pycharm-ce
+  runjs
   skitch
   slack
   sourcetree
