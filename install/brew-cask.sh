@@ -28,6 +28,7 @@ apps=(
   iterm2
   kaleidoscope
   licecap
+  pritunl
   pycharm-ce
   runjs
   skitch

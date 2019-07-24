@@ -48,6 +48,7 @@ apps=(
   mackup
   mkvtoolnix
   mplayer
+  mysql
   nano
   openssl
   pandoc
