@@ -20,7 +20,7 @@ macOSをターゲットにしていますが、*nixでも動作するはず…�
 * Development (Node/JS/JSON): [jq](https://stedolan.github.io/jq), [nodemon](https://nodemon.io), [peco](https://peco.github.io), [superstatic](https://github.com/firebase/superstatic), [underscore-cli](https://github.com/ddopson/underscore-cli)
 * Graphics: [ffmpeg](https://www.ffmpeg.org), [gifsicle](https://www.lcdf.org/gifsicle), [imagemagick](https://www.imagemagick.org), [svgo](https://github.com/svg/svgo)
 * macOS: [dockutil](https://github.com/kcrawford/dockutil), [Hammerspoon](https://www.hammerspoon.org), [Mackup](https://github.com/lra/mackup), [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
-* [macOS apps](https://github.com/kuronekomichael/bash-dotfiles/blob/master/install/brew-cask.sh)
+* [macOS apps](https://github.com/kuronekomichael/dotfiles/blob/master/install/brew-cask.sh)
 
 ## インストール
 
@@ -36,7 +36,7 @@ git、もしくはcurlのどちらでインストールします
 ### git cloneしてインストール
 
 ```bash
-git clone https://github.com/kuronekomichael/bash-dotfiles.git ~/.dotfiles
+git clone https://github.com/kuronekomichael/dotfiles.git ~/.dotfiles
 source ~/.dotfiles/install.sh
 ```
 
@@ -45,13 +45,13 @@ source ~/.dotfiles/install.sh
 あるいはgitを利用せずに、curlを使って `~/.dotfiles` へインストールすることもできます
 
 ```bash
-bash -c "`curl -fsSL https://raw.github.com/kuronekomichael/bash-dotfiles/master/remote-install.sh`"
+bash -c "`curl -fsSL https://raw.github.com/kuronekomichael/dotfiles/master/remote-install.sh`"
 ```
 
 wgetを使う場合はこちら
 
 ```bash
-bash -c "`wget -O - --no-check-certificate https://raw.githubusercontent.com/kuronekomichael/bash-dotfiles/master/remote-install.sh`"
+bash -c "`wget -O - --no-check-certificate https://raw.githubusercontent.com/kuronekomichael/dotfiles/master/remote-install.sh`"
 ```
 
 ## `dotfiles`コマンド
