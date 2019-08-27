@@ -20,26 +20,25 @@ apps=(
   dropbox
   font-fira-code
   gitter
+  google-chrome
   google-chrome-canary
   google-japanese-ime
   hammerspoon
-  hyper
   intellij-idea-ce
   iterm2
-  kaleidoscope
+  karabiner-elements
   licecap
   pritunl
   pycharm-ce
   runjs
   skitch
   slack
-  sourcetree
   the-unarchiver
   visual-studio-code
   vlc
 )
 # Pending:
-# - google-chrome
+# - 
 # Error:
 # - virtualbox
 # - virtualbox-extension-pack
@@ -48,8 +47,16 @@ apps=(
 # - java8
 # Install from appstore
 # - 1password
+# - mini calendar
+# - affinity designer
+# - kindle
+# - keynote
+# - 
 
-brew cask install "${apps[@]}"
+#brew cask install "${apps[@]}"
+for app in ${apps[@]}; do
+    brew cask install $app
+done
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
