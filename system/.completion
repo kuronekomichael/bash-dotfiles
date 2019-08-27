@@ -71,3 +71,8 @@ elif type compctl &>/dev/null; then
   }
   compctl -K _npm_completion npm
 fi
+
+# Git completion
+
+GIT_COMLETION_FILE="$DOTFILES_DIR/git/.git-completion.bash"
+[ -f "$GIT_COMLETION_FILE" ] && . "$GIT_COMLETION_FILE"
