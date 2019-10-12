@@ -28,6 +28,7 @@ apps=(
   iterm2
   karabiner-elements
   licecap
+  postman
   pritunl
   pycharm-ce
   runjs
@@ -36,6 +37,7 @@ apps=(
   the-unarchiver
   visual-studio-code
   vlc
+  workplace-chat
 )
 # Pending:
 # - 
