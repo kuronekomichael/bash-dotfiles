@@ -1,0 +1,5 @@
+# Load anyenv automatically by adding
+
+eval "$(anyenv init -)"
+
+export PATH="$HOME/.anyenv/bin:$PATH"

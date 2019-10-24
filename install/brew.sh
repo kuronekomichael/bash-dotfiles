@@ -13,6 +13,7 @@ brew upgrade
 
 apps=(
   ack
+  anyenv
   aria2
   bash-completion2
   bats
