@@ -23,6 +23,7 @@ apps=(
   coreutils
   diff-so-fancy
   dockutil
+  exa
   faac
   fasd
   ffmpeg
