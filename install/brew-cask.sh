@@ -3,9 +3,9 @@ if ! is-macos -o ! is-executable brew; then
   return
 fi
 
-brew tap caskroom/versions
-brew tap caskroom/cask
-brew tap caskroom/fonts
+brew tap homebrew/cask-versions
+brew tap homebrew/cask-cask
+brew tap homebrew/cask-fonts
 
 # Install packages
 
@@ -17,13 +17,10 @@ apps=(
   bettertouchtool
   charles
   docker
-  dropbox
-  font-fira-code
-  gitter
+  google-backup-and-sync
   google-chrome
   google-chrome-canary
   google-japanese-ime
-  hammerspoon
   intellij-idea-ce
   iterm2
   karabiner-elements
