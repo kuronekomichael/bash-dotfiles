@@ -39,6 +39,7 @@ apps=(
   visual-studio-code
   vlc
   workplace-chat
+  xquartz
   yacreader
 )
 
