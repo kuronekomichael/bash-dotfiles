@@ -1,9 +1,13 @@
+echo "================================="
+echo " 🚀 Install cli tools from brew "
+echo "================================="
+
 if ! is-macos -o ! is-executable ruby -o ! is-executable curl -o ! is-executable git; then
   echo "Skipped: Homebrew (missing: ruby, curl and/or git)"
   return
 fi
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew tap Goles/battery
 brew update
@@ -75,10 +79,10 @@ apps=(
   xvid
   youtube-dl
 )
-# needs java7+ (recommends java8)
-#maven
 
-brew install "${apps[@]}"
+for app in ${apps[@]}; do
+  brew install $app
+done
 
 export DOTFILES_BREW_PREFIX_COREUTILS=`brew --prefix coreutils`
 set-config "DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_CACHE"

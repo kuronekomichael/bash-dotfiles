@@ -1,3 +1,7 @@
+echo "==============================="
+echo " 🚀 Install cli tools from gem "
+echo "==============================="
+
 if ! is-macos -o ! is-executable brew; then
   echo "Skipped: gem"
   return

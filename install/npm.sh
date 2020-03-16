@@ -1,3 +1,7 @@
+echo "================================="
+echo " 🚀 Install cli tools from npmjs "
+echo "================================="
+
 if ! is-executable brew -o ! is-executable git; then
   echo "Skipped: npm (missing: brew and/or git)"
   return
@@ -28,4 +32,7 @@ packages=(
   underscore-cli
 )
 
-npm install -g "${packages[@]}"
+#npm install -g "${packages[@]}"
+for packages in ${packages[@]}; do
+  npm install -g $packages
+done

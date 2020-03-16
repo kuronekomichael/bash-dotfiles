@@ -1,3 +1,7 @@
+echo "===================================="
+echo " 🚀 Install GUI apps from brew cask "
+echo "===================================="
+
 if ! is-macos -o ! is-executable brew; then
   echo "Skipped: Homebrew-Cask"
   return
