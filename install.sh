@@ -25,10 +25,10 @@ ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 
 # Package managers & packages
 
+. "$DOTFILES_DIR/install/brew-cask.sh"
 . "$DOTFILES_DIR/install/brew.sh"
 . "$DOTFILES_DIR/install/npm.sh"
 . "$DOTFILES_DIR/install/bash.sh"
-. "$DOTFILES_DIR/install/brew-cask.sh"
 . "$DOTFILES_DIR/install/gem.sh"
 
 # Run tests
@@ -40,3 +40,5 @@ if is-executable bats; then bats test/*.bats; else echo "Skipped: tests (missing
 if [ -d "$DOTFILES_EXTRA_DIR" -a -f "$DOTFILES_EXTRA_DIR/install.sh" ]; then
   . "$DOTFILES_EXTRA_DIR/install.sh"
 fi
+
+echo -e "\n👍 \033[1;32mInstall finished. \033\0"
