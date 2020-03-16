@@ -35,24 +35,9 @@ apps=(
   visual-studio-code
   vlc
   workplace-chat
+  yacreader
 )
-# Pending:
-# - 
-# Error:
-# - virtualbox
-# - virtualbox-extension-pack
-# R.I.P.
-# - cooviewer
-# - java8
-# Install from appstore
-# - 1password
-# - mini calendar
-# - affinity designer
-# - kindle
-# - keynote
-# - 
 
-#brew cask install "${apps[@]}"
 for app in ${apps[@]}; do
     brew cask install $app
 done
