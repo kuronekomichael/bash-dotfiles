@@ -84,6 +84,9 @@ for app in ${apps[@]}; do
   brew install $app
 done
 
+# Initialize anyenv
+anyenv install --force-init --skip-existing
+
 export DOTFILES_BREW_PREFIX_COREUTILS=`brew --prefix coreutils`
 set-config "DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_CACHE"
 
