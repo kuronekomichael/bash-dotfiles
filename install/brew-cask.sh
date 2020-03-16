@@ -8,7 +8,7 @@ if ! is-macos -o ! is-executable brew; then
 fi
 
 brew tap homebrew/cask-versions
-brew tap homebrew/cask-cask
+brew tap homebrew/cask
 brew tap homebrew/cask-fonts
 
 # Install packages
