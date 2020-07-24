@@ -13,13 +13,17 @@ export DOTFILES_BREW_PREFIX_NVM=`brew --prefix nvm`
 set-config "DOTFILES_BREW_PREFIX_NVM" "$DOTFILES_BREW_PREFIX_NVM" "$DOTFILES_CACHE"
 
 . "${DOTFILES_DIR}/system/.nvm"
-nvm install 8
-nvm alias default 8
+nvm install 12
+nvm alias default 12
 
 # Globally install with npm
 
 packages=(
+  bit-bin
+  create-react-app
+  gatsby-cli
   get-port-cli
+  git-open
   gtop
   historie
   nodemon
@@ -29,10 +33,12 @@ packages=(
   superstatic
   svgo
   tldr
+  ts-node
+  typescript
   underscore-cli
+  yarn
 )
 
-#npm install -g "${packages[@]}"
 for packages in ${packages[@]}; do
   npm install -g $packages
 done
