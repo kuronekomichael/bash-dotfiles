@@ -26,6 +26,7 @@ packages=(
   git-open
   gtop
   historie
+  npm-check-updates
   nodemon
   npm
   release-it
