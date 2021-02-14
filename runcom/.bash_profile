@@ -63,5 +63,11 @@ export DOTFILES_DIR DOTFILES_EXTRA_DIR
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-# Force use GNU implementation grep and sed 
+# Force use GNU implementation grep and sed
 PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
+# Flutter bin
+PATH="$PATH:$HOME/Library/flutter/bin"
+
+# Rust bin
+PATH="$PATH:$HOME/.cargo/bin"
